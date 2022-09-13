@@ -20,9 +20,3 @@ public class PlaneShapeFactory
 
 
 
-//for checking
-
-// var factory = new PlaneShapeFactory();
-// var property = new CircleProperty();
-
-// var myShape = factory.Create(property);
