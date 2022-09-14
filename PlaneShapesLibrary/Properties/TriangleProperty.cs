@@ -4,17 +4,19 @@ public class TriangleProperty
     public double Side2 { get; set; }
     public double Side3 { get; set; }
 
-    public TriangleProperty(double s1, double s2, double s3)
+    public TriangleProperty(double side1, double side2, double side3)
     {
-        if (s1 <= 0 || s2 <= 0 || s3 <= 0)
+        if (side1 <= 0 || side2 <= 0 || side3 <= 0)
             throw new InvalidDataException("PropertyError: Triangle sides must be positive!");
         
         // the main condition of correct triangle is that the "sum of two sides is always bigger than the third one":
-        if (s1 + s2 <= s3 || s1 + s3 <= s2 || s2 + s3 <= s1)
+        if (side1 + side2 <= side3 || 
+            side1 + side3 <= side2 || 
+            side2 + side3 <= side1)
             throw new InvalidDataException("PropertyError: Incorrect triangle sides!");
         
-        Side1 = s1;
-        Side2 = s2;
-        Side3 = s3;
+        Side1 = side1;
+        Side2 = side2;
+        Side3 = side3;
     }
 }

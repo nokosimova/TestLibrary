@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaneShapesLibrary", "Plane
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{1EA7A98B-E846-4B50-9634-DED4CBD20D82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaneShapesLibrary.Test", "PlaneShapesLibrary.Test\PlaneShapesLibrary.Test.csproj", "{745D9ED6-4341-4E02-9C56-82F268DB386B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,5 +34,9 @@ Global
 		{1EA7A98B-E846-4B50-9634-DED4CBD20D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EA7A98B-E846-4B50-9634-DED4CBD20D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EA7A98B-E846-4B50-9634-DED4CBD20D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{745D9ED6-4341-4E02-9C56-82F268DB386B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745D9ED6-4341-4E02-9C56-82F268DB386B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745D9ED6-4341-4E02-9C56-82F268DB386B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745D9ED6-4341-4E02-9C56-82F268DB386B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

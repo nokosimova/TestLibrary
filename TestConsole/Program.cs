@@ -4,6 +4,6 @@ using PlaneShapesLibrary;
 var factory = new PlaneShapeFactory(); 
 var properties = new CircleProperty(10);
 
-var newShape = factory.Create(properties);
+var newShape = factory.CreateShape(properties);
 
 Console.WriteLine(newShape.GetTheArea());
