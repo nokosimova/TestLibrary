@@ -1,0 +1,12 @@
+
+/* так как связка между сущностями Продукт и Категория - M:M, то данные будут зраниться в 3 таблицах.
+Таблица ProductWithCategories будет хранить связки Продукт-Категория
+
+Products(Id, ProductName),
+Categories(Id, CategoryName),
+ProductWithCategories(ProductId, CategoryId) */
+
+select productName, categoryName
+from Products p
+left join ProductWithCategories pc on p.Id = pc.ProductId
+left join Categories c on pc.CategoryId = c.Id
