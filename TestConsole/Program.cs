@@ -71,6 +71,8 @@ while (true)
                 Console.WriteLine(ex.Message);
             }
             break;
+        default:
+            break;
     }
 
 }
